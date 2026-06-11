@@ -175,3 +175,124 @@ font-size: 50px;
 .dealsBannerLogos img{
     width: 190px;
 }
+
+/* DEALS GRID PART */
+
+.dealsGrid{
+    margin:60px 120px;
+}
+
+.dealsGrid-showing{
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.dealsGrid-showing span{
+    border-radius: 7px;
+    padding: 4px 5px;
+
+    border: none;
+
+    background-color: rgb(59, 72, 68);
+    color: white;
+    font-weight: bold;
+}
+
+
+.dealsGrid-showing button{
+    border-radius: 7px;
+    padding: 7px 10px;
+
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+
+    background-color: rgb(59, 72, 68);
+    color: white;
+    font-weight: bold;
+}
+
+#dealsGrid-showing-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    padding: 20px;
+}
+
+/*Project card styling */
+.projectCard{
+ background-color: white;
+ border-radius: 12px;
+
+ display: flex;
+ align-items: start;
+ justify-content: start;
+ flex-direction: column;
+ padding: 10px;
+}
+
+.projectCard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    width: 100%;
+}
+
+
+.projectCard-header img{
+    width: 60px;
+}
+
+.projectCard-header p{
+    color: green;
+    font-weight: bold;
+}
+
+.projectName{
+    font-weight: 900;
+}
+
+.projectCardCategory{
+font-weight: bold;
+}
+.projectCard-buttonAndSpan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    gap: 8px;
+}
+
+.projectCard-buttonAndSpan button{
+  border: 3px solid green;
+  border-radius: 12px;
+  width: 80%;
+
+  padding: 6px;
+
+  font-weight: 900;
+  color: green;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.projectCard-buttonAndSpan button:hover{
+    background-color: green;
+    color: azure;
+
+    transform: scale(0.97s);
+}
+
+/*Footer */
+
+.footer{
+    background-color: white;
+}
