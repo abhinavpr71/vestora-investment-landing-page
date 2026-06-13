@@ -296,14 +296,21 @@ font-weight: bold;
 .footer{
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding: 90px;
     gap: 10px;
 }
 
-.footerParts{
-    font-weight: bold;
+
+.footerParts i{
+    gap: 10px;
 }
 .footer img{
     width: 110px;
+}
+
+.fa-brands{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
 }
