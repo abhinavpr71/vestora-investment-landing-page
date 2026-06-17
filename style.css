@@ -18,7 +18,11 @@
     align-items: center;
     justify-content: center;
     
-    margin-left: 100px;
+    margin-left: 90px;
+}
+
+.fa-bars{
+    display: none;
 }
 
 .navLogo img{
@@ -313,4 +317,75 @@ font-weight: bold;
     font-size: 24px;
     margin-right: 10px;
     cursor: pointer;
+}
+
+
+/* moblie */
+
+@media(max-width:768px){
+    .navLogo{
+        margin: 5px;
+    }
+    .navLinks{
+        display: none;
+    }
+   .fa-bars{
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+   }
+  .hero{
+    margin-top: 10px;
+    padding: 15px;
+  }
+  .hero h1{
+    font-size: 2rem;
+  }
+  .hero p{
+    font-size: 1 rem;
+  }
+
+  .dealsHeading{
+    margin: 10px;
+  }
+
+  .dealsBanner{
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+   gap: 20px;
+  }
+  .dealsBannerHeading{
+    margin: 1px;
+  }
+  .dealsBannerHeading h2{
+    font-size: 15px;
+  }
+  .dealsBannerHeading p{
+    font-size: 13px;
+  }
+  .usdt{
+    font-size: 8px;
+  }
+  .dealsBannerLogos img{
+    width: 80px;
+  }
+  .dealsBannerLogos{
+    margin: 0;
+    font-size: 8px;
+  }
+
+  .dealsGrid{
+    margin: 0px;
+  }
+
+  #dealsGrid-showing-projects{
+    grid-template-columns: 1fr;
+  }
+
+  /*footer*/
+  .footer{
+    grid-template-columns: 2fr;
+    width: 100%;
+  }
 }
